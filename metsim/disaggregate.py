@@ -23,8 +23,8 @@ import pandas as pd
 import itertools
 import scipy
 
-import metsim.constants as cnst
-from metsim.physics import svp
+from . import metsim.constants as cnst
+from .metsim.physics import svp
 
 
 def disaggregate(df_daily: pd.DataFrame, params: dict,

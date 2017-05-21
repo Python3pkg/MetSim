@@ -21,7 +21,7 @@ physics
 import numpy as np
 import pandas as pd
 from numba import jit
-import metsim.constants as cnst
+from . import metsim.constants as cnst
 
 
 def calc_pet(rad: pd.Series, ta: pd.Series, dayl: pd.Series,
